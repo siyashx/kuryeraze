@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8300db9-8492-47dc-aa90-6a91ddcb2b01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/KuryerazeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/admin/controller/AdminAllController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/admin/controller/AdminCustomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/admin/controller/AdminLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/admin/controller/AdminRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/courier/controller/CourierAllController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/courier/controller/CourierCustomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/courier/controller/CourierLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/courier/controller/CourierRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/order/controller/OrderAllController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/order/controller/OrderCreateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/order/controller/OrderCustomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/shop/controller/ShopAllController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/shop/controller/ShopCustomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/shop/controller/ShopLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/shop/controller/ShopRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/bean/ModelMapperBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dao/admin/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dao/courier/CourierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dao/order/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dao/shop/ShopRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dto/admin/AdminDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dto/courier/CourierDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dto/order/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dto/shop/ShopDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/admin/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/courier/Courier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/shop/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/admin/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/courier/CourierServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/shop/ShopServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/inter/admin/AdminServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/inter/courier/CourierServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/inter/order/OrderServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/inter/shop/ShopServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2Vtj9sWjLgnrjMr1J9G75QXVeBR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ilkin/Desktop/Emekdaslar/Kuryeraze/Api/kuryeraze&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="KuryerazeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="kuryeraze" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuryeraze.kuryeraze.KuryerazeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8300db9-8492-47dc-aa90-6a91ddcb2b01" name="Changes" comment="" />
+      <created>1695662123803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695662123803</updated>
+      <workItem from="1695662124829" duration="742000" />
+      <workItem from="1695663120783" duration="1009000" />
+      <workItem from="1695666423217" duration="3329000" />
+      <workItem from="1695732242419" duration="404000" />
+      <workItem from="1695739806832" duration="4425000" />
+      <workItem from="1695746842616" duration="189000" />
+      <workItem from="1695756403849" duration="485000" />
+      <workItem from="1695801490291" duration="8549000" />
+      <workItem from="1695813320107" duration="1775000" />
+      <workItem from="1695827943956" duration="2577000" />
+      <workItem from="1695833485997" duration="3989000" />
+      <workItem from="1695898685213" duration="4687000" />
+      <workItem from="1695903408778" duration="1047000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
