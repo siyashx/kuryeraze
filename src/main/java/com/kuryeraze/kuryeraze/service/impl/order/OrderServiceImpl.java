@@ -5,18 +5,19 @@ import com.kuryeraze.kuryeraze.dto.order.OrderDto;
 import com.kuryeraze.kuryeraze.model.order.Order;
 import com.kuryeraze.kuryeraze.service.inter.order.OrderServiceInter;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Service;
 
-import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class OrderService implements OrderServiceInter {
+@Service
+public class OrderServiceImpl implements OrderServiceInter {
 
     private final OrderRepository orderRepository;
     private final ModelMapper modelMapper;
 
-    public OrderService(OrderRepository orderRepository, ModelMapper modelMapper) {
+    public OrderServiceImpl(OrderRepository orderRepository, ModelMapper modelMapper) {
         this.orderRepository = orderRepository;
         this.modelMapper = modelMapper;
     }
@@ -43,7 +44,7 @@ public class OrderService implements OrderServiceInter {
     }
 
     @Override
-    public OrderDto updateOrder(Long orderId, Order orderDto) {
+    public OrderDto updateOrder(Long orderId, OrderDto orderDto) {
         Optional<Order> orderOptional = orderRepository.findById(orderId);
         if (orderOptional.isPresent()) {
             Order order = orderOptional.get();
@@ -82,6 +83,46 @@ public class OrderService implements OrderServiceInter {
 
             if (orderDto.getDescription() != null) {
                 order.setDescription(orderDto.getDescription());
+            }
+
+            if (orderDto.getCreatedDate() != null) {
+                order.setCreatedDate(orderDto.getCreatedDate());
+            }
+
+            if (orderDto.getCreatedTime() != null) {
+                order.setCreatedTime(orderDto.getCreatedTime());
+            }
+
+            if (orderDto.getCallCourierDate() != null) {
+                order.setCallCourierDate(orderDto.getCallCourierDate());
+            }
+
+            if (orderDto.getCallCourierTime() != null) {
+                order.setCallCourierTime(orderDto.getCallCourierTime());
+            }
+
+            if (orderDto.getWayDate() != null) {
+                order.setWayDate(orderDto.getWayDate());
+            }
+
+            if (orderDto.getWayTime() != null) {
+                order.setWayTime(orderDto.getWayTime());
+            }
+
+            if (orderDto.getSuccessDate() != null) {
+                order.setSuccessDate(orderDto.getSuccessDate());
+            }
+
+            if (orderDto.getSuccessTime() != null) {
+                order.setSuccessTime(orderDto.getSuccessTime());
+            }
+
+            if (orderDto.getReturnDate() != null) {
+                order.setReturnDate(orderDto.getReturnDate());
+            }
+
+            if (orderDto.getReturnTime() != null) {
+                order.setReturnTime(orderDto.getReturnTime());
             }
 
             order = orderRepository.save(order);
