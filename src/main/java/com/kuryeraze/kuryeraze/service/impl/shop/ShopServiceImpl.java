@@ -123,6 +123,9 @@ public class ShopServiceImpl implements ShopServiceInter {
                 shop.setIsDisable(shopDto.getIsDisable());
             }
 
+            shop = shopRepository.save(shop);
+            return modelMapper.map(shop, ShopDto.class);
+
 
         }
         return null;
