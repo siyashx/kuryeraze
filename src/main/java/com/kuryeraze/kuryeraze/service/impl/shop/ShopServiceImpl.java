@@ -133,9 +133,8 @@ public class ShopServiceImpl implements ShopServiceInter {
 
     @Override
     public void deleteShopById(Long id) {
-
+        shopRepository.deleteById(id);
     }
-
 
 
 }

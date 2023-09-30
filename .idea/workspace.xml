@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8300db9-8492-47dc-aa90-6a91ddcb2b01" name="Changes" comment="kuryeraze updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/shop/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/shop/ShopServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <workItem from="1695925211728" duration="42000" />
       <workItem from="1696085256124" duration="4048000" />
       <workItem from="1696090062231" duration="104000" />
-      <workItem from="1696091630979" duration="1738000" />
+      <workItem from="1696091630979" duration="2787000" />
     </task>
     <task id="LOCAL-00001" summary="kuryeraze">
       <option name="closed" value="true" />
@@ -114,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696092358104</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kuryeraze updated">
+      <option name="closed" value="true" />
+      <created>1696093442412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696093442412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
