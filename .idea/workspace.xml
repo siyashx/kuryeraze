@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8300db9-8492-47dc-aa90-6a91ddcb2b01" name="Changes" comment="kuryeraze updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/finance/controller/AdminDeptToCourierBalanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/finance/controller/ShopDeptToAdminBalanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dao/finance/AdminDeptToCourierBalanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dao/finance/ShopDeptToAdminBalanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dto/finance/ShopDeptToAdminBalanceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/finance/ShopDeptToAdminBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/finance/AdminDeptToCourierBalanceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/finance/ShopDeptToAdminBalanceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/shop/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/shop/ShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/finance/controller/CourierCurrentBalanceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/order/controller/OrderAllController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/api/order/controller/OrderAllController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dao/finance/CourierCurrentBalanceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dao/order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dao/order/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dto/finance/CourierCurrentBalanceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dto/finance/AdminDeptToCourierBalanceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dto/order/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/dto/order/OrderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/finance/CourierCurrentBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/finance/AdminDeptToCourierBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/impl/finance/CourierCurrentBalanceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/inter/order/OrderServiceInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/service/inter/order/OrderServiceInter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +63,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ilkin/Desktop/Emekdaslar/Kuryeraze/Api/kuryeraze&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ilkin/Desktop/Emekdaslar/Bığlı Kuryer/Bigli Kuryer API/biglikuryer&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,6 +72,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuryeraze.kuryeraze.service.impl.finance" />
+      <recent name="com.kuryeraze.kuryeraze.model.finance" />
+      <recent name="com.kuryeraze.kuryeraze.dto.finance" />
+      <recent name="com.kuryeraze.kuryeraze.dao.finance" />
+      <recent name="com.kuryeraze.kuryeraze.api.finance.controller" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="KuryerazeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -89,7 +115,7 @@
       <workItem from="1695925211728" duration="42000" />
       <workItem from="1696085256124" duration="4048000" />
       <workItem from="1696090062231" duration="104000" />
-      <workItem from="1696091630979" duration="2787000" />
+      <workItem from="1696091630979" duration="3153000" />
     </task>
     <task id="LOCAL-00001" summary="kuryeraze">
       <option name="closed" value="true" />
@@ -123,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696093442412</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="kuryeraze updated">
+      <option name="closed" value="true" />
+      <created>1696094439503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696094439503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +167,16 @@
     <MESSAGE value="kuryeraze" />
     <MESSAGE value="kuryeraze updated" />
     <option name="LAST_COMMIT_MESSAGE" value="kuryeraze updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kuryeraze/kuryeraze/model/shop/Shop.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

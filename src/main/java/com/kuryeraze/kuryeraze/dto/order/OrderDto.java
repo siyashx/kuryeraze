@@ -30,6 +30,8 @@ public class OrderDto {
 
     private Double pickupCourierPrice;
 
+    private Integer paidType;
+
     private String description;
 
     private String createdDate;
