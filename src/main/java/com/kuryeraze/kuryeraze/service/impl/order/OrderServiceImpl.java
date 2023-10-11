@@ -81,6 +81,10 @@ public class OrderServiceImpl implements OrderServiceInter {
                 order.setPickupCourierPrice(orderDto.getPickupCourierPrice());
             }
 
+            if (orderDto.getPaidType() != null) {
+                order.setPaidType(orderDto.getPaidType());
+            }
+
             if (orderDto.getDescription() != null) {
                 order.setDescription(orderDto.getDescription());
             }
